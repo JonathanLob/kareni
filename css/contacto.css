@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#mas_fotos{
+    background-color: rgba(205,151,205,.3);
+    color: cyan;
+    padding: 20px;
+    justify-content: center;
+}
+#mas_fotos .contenedor{
+    text-align: center;
+}
+#mas_fotos .galeria_fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulo{
+    color: rgb(252,243,4);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.imagenes{
+    width: 25%;
+    margin: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagenes > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
